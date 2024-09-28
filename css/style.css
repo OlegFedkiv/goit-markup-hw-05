@@ -600,7 +600,9 @@ img {
 modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-icon:hover,
+.modal-close-icon:hover {
+  fill: #ffffff;
+}
 .modal-close-icon:focus {
   fill: #ffffff;
 }
@@ -663,6 +665,9 @@ modal-close-icon {
   fill: #4d5ae5;
   outline: none;
 }
+.review-margin-bottom {
+  margin-bottom: 16px;
+}
 .review-form-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -685,7 +690,6 @@ modal-close-icon {
 }
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
-  margin-top: 8px;
 }
 .review-form-custom-checkbox {
   display: inline-flex;
