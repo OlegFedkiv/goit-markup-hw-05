@@ -591,12 +591,11 @@ img {
 .modal-close-bth:hover {
   background-color: #404bbf;
   border: none;
-
   fill: #ffffff;
 }
 .modal-close-bth:focus {
   border: none;
-  fill: #ffffff;
+  background-color: #404bbf;
 }
 modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -686,6 +685,7 @@ modal-close-icon {
 }
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
+  margin-top: 8px;
 }
 .review-form-custom-checkbox {
   display: inline-flex;
@@ -721,6 +721,7 @@ modal-close-icon {
   background-color: #404bbf;
   cursor: pointer;
   fill: #f4f4fd;
+  border: none;
 }
 
 .review-form-submit-btn {
