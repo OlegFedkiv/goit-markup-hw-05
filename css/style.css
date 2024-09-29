@@ -641,6 +641,11 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-close-bth:hover {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
 .modal-close-bth:hover,
 .modal-close-bth:focus {
   border: none;
@@ -749,6 +754,9 @@ img {
   height: 16px;
   fill: transparent;
   margin-right: 8px;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
