@@ -772,7 +772,6 @@ img {
   + .review-form-checkbox-label
   > .review-form-custom-checkbox {
   background-color: #404bbf;
-  cursor: pointer;
   fill: #f4f4fd;
   border: none;
 }
