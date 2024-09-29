@@ -531,6 +531,9 @@ img {
 }
 
 /* ============section 2 ========= */
+.page-footer-section-two {
+  margin-left: 80px;
+}
 .page-footer-section-two-slogan {
   margin-bottom: 16px;
   font-weight: 500;
@@ -540,6 +543,7 @@ img {
   color: #ffffff;
 }
 .page-footer-section-two-form {
+  gap: 24px;
   display: flex;
 }
 .page-footer-section-two-input {
